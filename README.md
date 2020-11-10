@@ -30,7 +30,8 @@ google-cloud-vision - artifact is necessary for detecting labels.
 
 ## 3. Create Application Access Page and its corresponding servlets
  <b>Home.jsp</b> - Allows you to upload an image.<br>
- <b>Upload.java</b> - It's a servlet which recieves the request. Upon receiving the request, the image is converts as blobbytes and is processed in the method getImageLabels() to fetch its labels using the google cloud vision api. The fetched results are redirected to the view - Labels.jsp<br>
  ![Screen Shot 2020-11-09 at 8.20.22 PM.png](https://github.com/rojabalakrishnan/ExerciseSaas-LabelDetection/blob/main/Images/Screen%20Shot%202020-11-09%20at%208.20.22%20PM.png) <br>
+ <b>Upload.java</b> - It's a servlet which recieves the request. Upon receiving the request, the image is converts as blobbytes and is processed in the method getImageLabels() to fetch its labels using the google cloud vision api. The fetched results are redirected to the view - Labels.jsp<br>
+ 
  <b>Labels.jsp</b> - Returns the view of the image with its corresponding labels   
  ![Screen Shot 2020-11-09 at 8.20.56 PM.png](https://github.com/rojabalakrishnan/ExerciseSaas-LabelDetection/blob/main/Images/Screen%20Shot%202020-11-09%20at%208.20.56%20PM.png) <br>
